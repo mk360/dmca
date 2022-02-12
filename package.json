@@ -1,0 +1,25 @@
+{
+  "name": "dmca",
+  "version": "1.0.0",
+  "description": "Dumbest Manmade Ciphering Algorithm",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx jasmine-ts tests/**.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk360/dmca.git"
+  },
+  "author": "Muhammad Kassar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mk360/dmca/issues"
+  },
+  "homepage": "https://github.com/mk360/dmca#readme",
+  "devDependencies": {
+    "jasmine-ts": "^0.4.0"
+  }
+}
