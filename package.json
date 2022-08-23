@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "npx jasmine-ts tests/**.ts"
+    "test": "jest --config='./jest.config.js'"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,13 @@
   },
   "homepage": "https://github.com/mk360/dmca#readme",
   "devDependencies": {
-    "jasmine-ts": "^0.4.0"
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.7",
+    "jasmine-ts": "^0.4.0",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.8"
+  },
+  "dependencies": {
+    "ts-morph": "^15.1.0"
   }
 }
